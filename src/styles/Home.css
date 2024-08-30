@@ -1,0 +1,21 @@
+/* src/styles/Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+/* src/components/AddUser.css */
+.add-user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  min-height: 100vh;
+  background-color: #f4f4f4; /* Optional: background color */
+  padding: 20px; /* Optional: padding */
+}
+
+.add-user-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.add-user-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3c507e; /* Match your theme color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2a3a5b; /* Darker shade for hover effect */
+}

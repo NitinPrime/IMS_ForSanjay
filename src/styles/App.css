@@ -1,0 +1,64 @@
+/* Add styling rules here as per your design */
+.app-container {
+  text-align: center;
+}
+
+.header {
+  background-color: #3c507e;
+  color: white;
+  padding: 20px;
+}
+
+.nav-bar {
+  margin: 20px;
+}
+
+.nav-bar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #3c507e;
+}
+
+.home-content {
+  margin-top: 30px;
+}
+
+.home-image {
+  width: 300px;
+  height: auto;
+  border: 5px solid #3c507e;
+  margin-top: 20px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3c507e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2e4065;
+}
